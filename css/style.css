@@ -2,10 +2,13 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 15px;
 }
 .main-header h1 {
   display: none;
+}
+.main-header img {
+  height: auto;
+  padding: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

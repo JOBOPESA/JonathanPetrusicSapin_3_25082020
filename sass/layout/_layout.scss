@@ -1,12 +1,17 @@
 .main-header
 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 15px;
+width: 100%;
+display: flex;
+justify-content: center;
 
     h1
     {
         display: none;
+    }
+
+    img
+    {
+        height: auto;
+        padding: 30px;
     }
 }
