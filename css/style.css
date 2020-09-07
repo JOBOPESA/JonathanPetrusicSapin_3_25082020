@@ -1,5 +1,11 @@
-body {
-  background-color: #ffffff;
+.main-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+.main-header h1 {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

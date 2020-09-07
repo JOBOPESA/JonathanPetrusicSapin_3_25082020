@@ -1,20 +1,20 @@
 {
   "name": "tp3_pageweb-animations-css",
   "version": "1.0.0",
-  "description": "\"JSON file for oc_dev-web_tp3\"",
+  "description": "SASS package for tp3-oc",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./scss/main.scss:./css/style.css"
+    "sass": "sass --watch ./sass/main.scss:./css/style.css --style nested"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JOBOPESA/JonathanPetrusicSapin_3_25082020.git"
   },
   "keywords": [
+    "html",
+    "css",
     "sass",
-    "animation",
-    "website",
-    "openclassrooms"
+    "responsive"
   ],
   "author": "Jonathan PETRUSIC-SAPIN",
   "license": "ISC",
