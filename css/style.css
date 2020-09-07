@@ -1,14 +1,1 @@
-.main-header {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.main-header h1 {
-  display: none;
-}
-.main-header img {
-  height: auto;
-  padding: 30px;
-}
-
-/*# sourceMappingURL=style.css.map */
+.main-header{width:100%;height:100%;display:flex;justify-content:center;box-sizing:border-box}.main-header h1{display:none}.main-header img{display:block;width:50%;height:auto;padding:50px}/*# sourceMappingURL=style.css.map */
