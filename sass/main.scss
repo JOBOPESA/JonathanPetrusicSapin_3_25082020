@@ -1,1 +1,13 @@
-@import "./layout/layout.scss"
+@import "./utils/utils.scss";
+
+@import "./base/base.scss";
+
+@import "./components/components.scss";
+
+@import "./layout/layout.scss";
+
+@import "./pages/home.scss";
+@import "./pages/bastille.scss";
+@import "./pages/palette.scss";
+@import "./pages/enchanted.scss";
+@import "./pages/gourmand.scss";

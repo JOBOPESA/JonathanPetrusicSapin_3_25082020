@@ -1,1 +1,72 @@
-.main-header{width:100%;height:100%;display:flex;justify-content:center;box-sizing:border-box}.main-header h1{display:none}.main-header img{display:block;width:50%;height:auto;padding:50px}/*# sourceMappingURL=style.css.map */
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.btn {
+  background-image: linear-gradient(175deg, #FF79DA, #9356DC);
+  cursor: pointer;
+  width: 50%;
+  font-size: 40px;
+  padding: 30px;
+  color: #fff;
+  border-radius: 60px;
+  margin: 20px;
+}
+
+header h1 {
+  display: none;
+}
+header img {
+  display: block;
+  margin: 15px auto 15px auto;
+  width: 50%;
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  header img {
+    display: block;
+    margin-top: 30px;
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  header img {
+    display: block;
+    margin-top: 40px;
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  header img {
+    display: block;
+    margin: 50px;
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  header img {
+    display: block;
+    margin: 50px;
+    width: 40%;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  header img {
+    display: block;
+    margin: 50px;
+    width: 35%;
+  }
+}
+
+footer {
+  background-color: #424242;
+  position: absolute;
+  width: 100%;
+  padding: 10px 0px 10px 10px;
+}
+footer ul > img {
+  max-width: 115px;
+  padding: 0px 0px 10px 0px;
+}
+
+/*# sourceMappingURL=style.css.map */
