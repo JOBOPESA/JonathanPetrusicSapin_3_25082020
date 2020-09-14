@@ -6,12 +6,10 @@ body {
 .btn {
   background-image: linear-gradient(175deg, #FF79DA, #9356DC);
   cursor: pointer;
-  width: 50%;
-  font-size: 40px;
-  padding: 30px;
   color: #fff;
   border-radius: 60px;
-  margin: 20px;
+  margin: 5px 0 24px 0;
+  padding: 10px 20px 10px 20px;
 }
 
 header h1 {
@@ -22,51 +20,48 @@ header img {
   margin: 15px auto 15px auto;
   width: 50%;
 }
-@media only screen and (min-width: 600px) and (max-width: 768px) {
-  header img {
-    display: block;
-    margin-top: 30px;
-    width: 50%;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 992px) {
-  header img {
-    display: block;
-    margin-top: 40px;
-    width: 50%;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1024px) {
-  header img {
-    display: block;
-    margin: 50px;
-    width: 50%;
-  }
-}
-@media only screen and (min-width: 1024px) and (max-width: 1280px) {
-  header img {
-    display: block;
-    margin: 50px;
-    width: 40%;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  header img {
-    display: block;
-    margin: 50px;
-    width: 35%;
-  }
-}
 
 footer {
   background-color: #424242;
   position: absolute;
   width: 100%;
-  padding: 10px 0px 10px 10px;
+}
+footer ul {
+  list-style-type: none;
+  padding-left: 20px;
 }
 footer ul > img {
-  max-width: 115px;
-  padding: 0px 0px 10px 0px;
+  min-width: 35%;
+  max-width: 40%;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  background-color: #ebebeb;
+  box-shadow: 0 18px 17px -20px #505050 inset;
+}
+
+.explore, .menus, ol > li {
+  background-color: #F5F5F5;
+}
+
+.explore {
+  text-align: center;
+  padding: 15px;
+}
+
+.guide h2 {
+  padding-left: 15px;
+}
+.guide ol {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.guide ol li {
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
