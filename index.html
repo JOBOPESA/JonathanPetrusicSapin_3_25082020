@@ -29,9 +29,9 @@
                 <h2>Comment ça marche</h2>
             </header>
             <ol>
-                <li><i class="fas fa-mobile-alt"></i>Choisissez un restaurant</li>
-                <li><i class="fas fa-list-ul"></i>Créez votre menu</li>
-                <li><i class="fas fa-store"></i>Allez en profiter au restaurant</li>
+                <li><span>1</span><i class="fas fa-mobile-alt"></i>Choisissez un restaurant</li>
+                <li><span>2</span><i class="fas fa-list-ul"></i>Créez votre menu</li>
+                <li><span>3</span><i class="fas fa-store"></i>Allez en profiter au restaurant</li>
             </ol>
         </div>
         <div class="menus">
@@ -39,32 +39,46 @@
                 <h2>Restaurants</h2>
             </header>
             <div class="menus__list">
-                <div class="menu__box menu-1">
+                <div class="menu__box">
                     <a href="html/menu_full-palette.html" title="The full palette">
-                        <img src="" alt="Restaurant &quot;The full palette&quot;" />
-                        <h2 class="menu-1__title">The full palette</h2>
-                        <p class="menu-1__text">Paris</p>
+                        <div class="label">Nouveau</div>
+                        <div class="image">
+                            <img src="assets/img/restaurants/palette_gout.jpg"
+                                alt="Restaurant &quot;The full palette&quot;" class="menu1_pic" />
+                        </div>
+                        <div class="infos">
+                            <div class="menu-1__title">The full palette</div>
+                            <div class="menu-1__text">Paris</div>
+                        </div>
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
                     </a>
                 </div>
-                <div class="menu__box menu-2">
+                <div class="menu__box">
                     <a href="html/menu_enchanted-plate.html">
-                        <img src="" alt="Restaurant &quot;The enchanted plate&quot;" />
+                        <img src="assets/img/restaurants/note_enchantee.jpg"
+                            alt="Restaurant &quot;The enchanted plate&quot;" />
                         <h2 class="menu-2__title">The enchanted plate</h2>
                         <p class="menu-2__text">Paris</p>
                     </a>
                 </div>
-                <div class="menu__box menu-3">
-                    <a href="html/menu_bastille.html">
-                        <img src="" alt="Restaurant &quot;Bastille&quot;" />
+                <a href="html/menu_bastille.html">
+                    <div class="menu__box">
+                        <div class="label">
+                            Nouveau
+                        </div>
+                        <img src="assets/img/restaurants/chic_francaise.jpg" alt="Restaurant &quot;Bastille&quot;" />
                         <h2>Bastille</h2>
                         <p>Paris</p>
-                    </a>
-                </div>
-                <div class="menu__box menu-4">
+                    </div>
+                </a>
+                <div class="menu__box">
                     <a href="html/menu_gourmand.html">
-                    <img src="" alt="Restaurant &quot;Le délice des papilles&quot;" />
-                    <h2>Le délice des papilles</h2>
-                    <p>Paris</p>
+                        <img src="assets/img/restaurants/delice_papilles.jpg"
+                            alt="Restaurant &quot;Le délice des papilles&quot;" />
+                        <h2>Le délice des papilles</h2>
+                        <p>Paris</p>
                     </a>
                 </div>
             </div>
@@ -73,7 +87,7 @@
 
     <footer>
         <ul>
-            <img src="assets/img/ohmyfood_logo.png" alt="Logo d'Ohmyfood">
+            <img src="assets/img/ohmyfood.png" alt="Logo d'Ohmyfood">
             <li><i class="fas fa-utensils"></i>Suggérer un restaurant</li>
             <li><i class="fas fa-hands-helping"></i>Devenir partenaire</li>
             <li>Mentions légales</li>

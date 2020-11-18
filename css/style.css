@@ -29,10 +29,15 @@ footer {
 footer ul {
   list-style-type: none;
   padding-left: 20px;
+  color: white;
 }
 footer ul > img {
   min-width: 35%;
   max-width: 40%;
+}
+footer a {
+  text-decoration: none;
+  color: white;
 }
 
 .location {
@@ -40,9 +45,12 @@ footer ul > img {
   align-items: center;
   background-color: #ebebeb;
   box-shadow: 0 18px 17px -20px #505050 inset;
+  justify-content: center;
 }
 
-.explore, .menus, ol > li {
+.explore,
+.menus,
+ol > li {
   background-color: #F5F5F5;
 }
 
@@ -59,9 +67,65 @@ footer ul > img {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  list-style-type: none;
 }
 .guide ol li {
   margin-bottom: 30px;
+}
+
+.menus__list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.menu__box {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  border-radius: 5%;
+  overflow: hidden;
+}
+.menu__box .label {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 5px;
+  background: #99e2d0;
+  border-radius: 2px;
+}
+
+img {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.image {
+  height: 250px;
+  width: 100%;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.image img::after {
+  content: "";
+}
+
+.infos {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.pic_palette {
+  width: 100%;
+}
+
+.menu_layout {
+  padding: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
